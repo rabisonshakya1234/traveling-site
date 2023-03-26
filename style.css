@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600&family=Delicious+Handrawn&family=Fira+Sans:ital,wght@0,500;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: red;
+    width:20vw;
+    height: 100vh;
+    font-family: 'Delicious Handrawn', cursive;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+}
+.main{
+    background-color: yellow;
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
